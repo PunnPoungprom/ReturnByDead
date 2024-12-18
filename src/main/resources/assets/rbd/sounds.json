@@ -1,0 +1,17 @@
+{
+  "rbd": {
+    "sounds": [
+      "rbd:rbd"
+    ]
+  },
+  "ahhyooaaawhoaaa": {
+    "sounds": [
+      "rbd:ahhyooaaawhoaaa"
+    ]
+  },
+  "amdead": {
+    "sounds": [
+      "rbd:amdead"
+    ]
+  }
+}

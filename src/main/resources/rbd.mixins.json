@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "net.nopunintendeds.rbd.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MinecraftServerMixin",
+		"PersistentStateManagerMixin",
+		"RespawnMixin",
+		"ServerPlayerEntityMixin",
+		"ServerWorldMixin",
+		"ThreadedAnvilChunkStorageMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"DownloadingTerrainScreenMixin",
+		"LevelLoadingScreenMixin",
+		"MinecraftServerAccessor",
+		"ProgressScreenMixin",
+		"ScreenMixin"
+	]
+}
